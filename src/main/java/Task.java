@@ -9,21 +9,23 @@ public class Task {
         String task2Result = task2();
         System.out.println(task2Result);
 
-
+        System.out.println("Задание 3. Массив заполнен случайными числами");
         int[] testArray1 = createArrayFromRandomValues();
+        System.out.println("Начальный массив: " + Arrays.toString(testArray1));
         int[] resTask3 = task3(testArray1);
         System.out.print("Элементы кратные 3: ");
         for (int i : resTask3) {
             System.out.print(i + " ");
         }
 
+        System.out.println();
+        System.out.println("Задание 3. Массив необходимо заполнить вручную");
         int[] testArray2 = createArray();
+        System.out.println("Начальный массив: " + Arrays.toString(testArray2));
         System.out.print("Элементы кратные 3: ");
         for (int i : testArray2) {
             System.out.print(i + " ");
         }
-
-
     }
 
     /** Составьте алгоритм, Если введенное число больше 7, то вывести “Привет” */
