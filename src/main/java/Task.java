@@ -85,7 +85,7 @@ public class Task {
         System.out.print("Введите длинну массива: ");
          int[] array = new int[scanner.nextInt()];
          for(int i = 0; i < array.length; i++) {
-             System.out.print("Введите " + i + " эелемент массива: ");
+             System.out.print("Введите " + i + " элемент массива: ");
              array[i] = scanner.nextInt();
          }
          return array;
